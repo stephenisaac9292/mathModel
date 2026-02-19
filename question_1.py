@@ -130,7 +130,7 @@ def simulate_mm1_simpy(lmbda, mu, Tsim, seed):
 
 # ---------- Run 5 reps + print Table 1 & Table 2 ----------
 def run_experiment(lmbda=0.9, mu=1.0, Tsim=10000):
-    seeds = [235, 284, 893, 895, 394]
+    seeds = [225, 657, 468, 746, 829]
 
     theory = mm1_theory(lmbda, mu)
     print(f"Parameters: lambda={lmbda:.3f}, mu={mu:.3f}, Tsim={Tsim}, replications={len(seeds)}")

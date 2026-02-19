@@ -7,7 +7,7 @@ import simpy
 LAMBDA = 1.8
 MU = 1.0
 TSIM = 10000                 # assume 10000 since not given
-SEEDS = [235, 284, 893, 895, 394]   # 5 runs (change to [235] for 1 run)
+SEEDS = [225]   # 5 runs (change to [235] for 1 run)
 
 SERVER_COST_PER_HR = 50.0
 WAIT_COST_PER_HR = 10.0
